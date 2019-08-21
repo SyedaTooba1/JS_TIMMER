@@ -1,0 +1,78 @@
+/* button{
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ed3330;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    transition: all 0.4s ease 0s;
+}
+button:hover {
+    background: #434343;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+} */
+body{
+    
+    background: url(images/6.jpg);
+    text-align: center;
+    padding:10%;
+}
+#top,#mid,#bottom{
+    
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 25px;
+    color:   #60a3bc !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background:#fff ;
+    padding: 15px 60px;
+    border: 2px solid #60a3bc;
+    border-radius: 50px;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+    
+
+    
+}
+button:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 25px 80px;
+    display: inline-block;
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.5s;
+
+}
+#mid span{
+    margin: 10px;
+    padding: 10px;
+    font-size: 70px;
+}
